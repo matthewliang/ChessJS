@@ -1,0 +1,92 @@
+html, body {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+}
+
+.board .row {
+  margin-bottom: -4px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 410px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.status {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.tile {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+.dark {
+  background-color: #39F;
+}
+
+.light {
+  background-color: #e6f2ff;
+}
+
+.clicked {
+  background-color: #f90;
+}
+
+.white.pawn {
+  background-image: url('lib/img/whitePawn.png');
+}
+
+.white.knight {
+  background-image: url('lib/img/whiteKnight.png');
+}
+
+.white.bishop {
+  background-image: url('lib/img/whiteBishop.png');
+}
+
+.white.rook {
+  background-image: url('lib/img/whiteRook.png');
+}
+
+.white.queen {
+  background-image: url('lib/img/whiteQueen.png');
+}
+
+.white.king {
+  background-image: url('lib/img/whiteKing.png');
+}
+
+.black.pawn {
+  background-image: url('lib/img/blackPawn.png');
+}
+
+.black.knight {
+  background-image: url('lib/img/blackKnight.png');
+}
+
+.black.bishop {
+  background-image: url('lib/img/blackBishop.png');
+}
+
+.black.rook {
+  background-image: url('lib/img/blackRook.png');
+}
+
+.black.queen {
+  background-image: url('lib/img/blackQueen.png');
+}
+
+.black.king {
+  background-image: url('lib/img/blackKing.png');
+}
